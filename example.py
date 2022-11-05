@@ -38,7 +38,7 @@ iface = args.interface
 if args.random:
     # генерируем случайный mac (вызываем функцию get_random_mac_address())
     get_random_mac_address()
-elif args.mac:
+elif not args.mac:
     # устанавливаем пользовательский MAC
     new_mac_address = args.mac
-    print(new_mac_address)
+    print("hello")
