@@ -57,3 +57,4 @@ if __name__ == "__main__":
     # проверяем реально ли поменялся MAC
     new_mac_address = get_current_mac_address(iface)
     print("[+] New MAC address:", new_mac_address)
+# print('hello world')
