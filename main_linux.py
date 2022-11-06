@@ -78,7 +78,6 @@ elif options.mac:
     # устанавливаем пользовательский MAC
     new_mac = options.mac
 
-
 old_mac_address = get_current_mac(iface)
 print("[*] Old MAC address:", old_mac_address)
 
